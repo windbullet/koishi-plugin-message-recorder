@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-message-recorder",
-  "description": "查看最近接收到的数条消息",
-  "version": "0.0.1",
+  "description": "查看该群最近接收到的数条消息，已撤回的也可以看到",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,13 +9,16 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "homepage": "https://github.com/windbullet/koishi-plugin-message-recorder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-message-recorder.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
